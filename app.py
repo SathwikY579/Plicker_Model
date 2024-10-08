@@ -281,3 +281,6 @@ def handle_stop_stream():
     global stream_active
     stream_active = False
     socketio.emit('final_results', dict(detected_students))
+if __name__ == '__main__':
+    logger.info("Started")
+    socketio.run(app,debug=True,use_reloader=False,allow_unsafe_werkzeug=True)
