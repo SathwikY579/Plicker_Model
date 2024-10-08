@@ -116,7 +116,7 @@ html_template = """
     </style>
 </head>
 <body>
-    <h1>Live Plicker Detection</h1>
+    <h1>Thank God Plicker Detection</h1>
     <div class="control-panel">
         <input type="number" id="student-count" placeholder="Enter number of students">
         <button id="start-btn">Start Stream</button>
